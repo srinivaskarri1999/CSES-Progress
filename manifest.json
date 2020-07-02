@@ -1,0 +1,15 @@
+{
+  "name": "CSES Progress",
+  "version": "1.0",
+  "description": "This extension is to view number of solved and unsolved problems.",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://cses.fi/problemset/list/",
+        "https://cses.fi/problemset/list"
+      ],
+      "js": ["index.js"]
+    }
+  ]
+}
